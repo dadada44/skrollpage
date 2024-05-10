@@ -7,7 +7,7 @@ nav {
   width: 100%;
   top: 0;
   left: 0;
-  background: #2f3241;
+  background: #363947;
   position: fixed;
   z-index: 9999;
 }
@@ -25,7 +25,7 @@ nav ul li {
   flex: 1 1 auto;
 }
 nav ul li a {
-  color: #e74c3c;
+  color: #bdbdbd;
   text-decoration: none;
   display: block;
 }
@@ -35,7 +35,7 @@ nav ul li:before {
   height: 3px;
   bottom: 0;
   right: 100%;
-  background: #e74c3c;
+  background: #7a9cfa;
   position: absolute;
   transition: 0.5s;
 }
@@ -45,10 +45,18 @@ nav ul li.active:before {
 }
 main {
   width: 100%;
-  margin: 100px auto 50px auto;
+  margin: 85px auto 85px auto;
+}
+
+h1{
+  padding-top: 100px;
+  font-size: 50px;
+  justify-content: center;
+  display: flex;
 }
 
 section{
   height: 100vh;
-
+  width: 100%;
+  background-color: #9b9a9a;
 }
